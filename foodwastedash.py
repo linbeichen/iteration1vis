@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # 加载数据集
-file_path = "D:/learning/FIT5120/iteration1/Food Waste data and research - by country (1).csv"
+file_path = "Food Waste data and research - by country (1).csv"
 data = pd.read_csv(file_path)
 
 # 按 'Household estimate (tonnes/year)' 从高到低排序
